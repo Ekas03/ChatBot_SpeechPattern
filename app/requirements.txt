@@ -1,0 +1,3 @@
+aiogram
+PyPDF2
+python-docx
