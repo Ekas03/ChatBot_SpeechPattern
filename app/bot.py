@@ -5,8 +5,8 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker, relationship
 from sqlalchemy import Column, Integer, String, ForeignKey
 
-API_TOKEN = "7417535289:AAFkJzFYQh-Imuxto9kBUygdJRhu1oiwnE0"
-DB_URL = "postgresql+asyncpg://postgres:postgres@localhost:5033/postgres"
+API_TOKEN = ""
+DB_URL = ""
 
 logging.basicConfig(level=logging.INFO)
 bot = Bot(token=API_TOKEN)
