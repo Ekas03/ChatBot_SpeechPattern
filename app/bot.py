@@ -9,7 +9,6 @@ API_TOKEN = "7417535289:AAFkJzFYQh-Imuxto9kBUygdJRhu1oiwnE0"
 DB_URL = "postgresql+asyncpg://postgres:postgres@localhost:5033/postgres"
 
 logging.basicConfig(level=logging.INFO)
-
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
 
