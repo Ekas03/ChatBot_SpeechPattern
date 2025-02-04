@@ -15,7 +15,6 @@ dp = Dispatcher(bot)
 Base = declarative_base()
 engine = create_async_engine(DB_URL, echo=True)
 SessionLocal = sessionmaker(bind=engine, class_=AsyncSession, expire_on_commit=False)
-
 class User(Base):
     __tablename__ = "users"
 
